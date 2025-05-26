@@ -1,0 +1,10 @@
+{
+  "repositoryUrl": "https://${GH_TOKEN}@github.com/afifridho/release-testing.git",
+  "branches": ["main"],
+  "plugins": [
+    "@semantic-release/commit-analyzer",
+    "@semantic-release/release-notes-generator",
+    "@semantic-release/github"
+  ]
+}
+
